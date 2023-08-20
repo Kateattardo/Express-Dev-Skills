@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= Skills %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Skills</h1>
+    <a href="/skills">Skill List</a>
+     <ul>
+       <% skills.forEach(function(s) { %>
+         <li>
+           <%= s.skills %>
+             - 
+           <%= s.done ? 'done' : 'not done' %>
+         </li>
+       <% }); %>
+     </ul>
+  </body>
+</html>
+    
+</body>
+</html>
