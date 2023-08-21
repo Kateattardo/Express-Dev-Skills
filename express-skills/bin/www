@@ -5,7 +5,7 @@
  */
 
 const app = require('../server');
-const debug = require('debug')('express-skills:server');
+const debug = require('debug')('express-dev-skills:server');
 const http = require('http');
 
 /**
