@@ -1,14 +1,11 @@
 const skills = [
-    {id: 1, skill: "watching lessons", level: advanced},
-    {id: 2, skill: "complete code-alongs", level: advanced},
-    {id: 3, skill: "complete SEI courses", level: basic},
-    {id: 4, skill: "javascript", level: basic},
-    {id: 5, skill: "html", level: intermediate},
-    {id  6, skill: "CSS", level: intermediate},
-    {id  7, skill: "node.js" level: basic},
-    {id  8, skill: "express" level: basic},
-
-  ];
+  {id: 1, skill: 'watching lessons', done: true},
+  {id: 2, skill: 'complete code-alongs', done: false},
+  {id: 3, skill: 'complete SEI immersive', done: false},
+  {id: 4, skill: 'HTML', done: true},
+  {id: 5, skill: 'CSS', done: true},
+  {id: 6, skill: 'javascript',done: true},
+]
   function getAll() {
     return skills;
   }
