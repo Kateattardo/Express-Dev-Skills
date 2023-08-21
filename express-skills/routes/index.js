@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 // GET /skills
-router.get('/', skillsCtrl.index);
+//router.get('/', skillsCtrl.index);
 // GET /skills/:id
-router.get('/:id', skillsCtrl.show);
+//router.get('/:id', skillsCtrl.show);
 
 module.exports = router;
